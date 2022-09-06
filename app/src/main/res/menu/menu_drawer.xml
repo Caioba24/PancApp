@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Pancs">
+            <menu>
+                <item
+                    android:id="@+id/mPlanta"
+                    android:icon="@drawable/ic_baseline_local_florist"
+                    android:title="Plantas" />
+
+                <item
+                    android:id="@+id/mFotosPlanta"
+                    android:icon="@drawable/ic_baseline_insert_photo"
+                    android:title="Imagens" />
+
+                <item
+                    android:id="@+id/mDescricao"
+                    android:icon="@drawable/ic_baseline_event_note"
+                    android:title="Descrições" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Configurações Gerais">
+            <menu>
+                <item
+                    android:title="Configuração"
+                    android:icon="@drawable/ic_baseline_settings"
+                    android:id="@+id/mSettings"
+                    />
+                <item
+                    android:title="Como Ajudar?"
+                    android:icon="@drawable/ic_baseline_emoji_people"
+                    android:id="@+id/mAjudar"
+                    />
+                <item
+                    android:title="Sobre"
+                    android:icon="@drawable/ic_baseline_error_outline"
+                    android:id="@+id/mSobre"
+                    />
+            </menu>
+        </item>
+    </group>
+</menu>
